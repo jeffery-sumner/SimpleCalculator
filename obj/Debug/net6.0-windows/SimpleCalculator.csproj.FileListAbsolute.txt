@@ -1,0 +1,17 @@
+C:\Users\nick_\OneDrive\SimpleCalculator\bin\Debug\net6.0-windows\SimpleCalculator.exe
+C:\Users\nick_\OneDrive\SimpleCalculator\bin\Debug\net6.0-windows\SimpleCalculator.deps.json
+C:\Users\nick_\OneDrive\SimpleCalculator\bin\Debug\net6.0-windows\SimpleCalculator.runtimeconfig.json
+C:\Users\nick_\OneDrive\SimpleCalculator\bin\Debug\net6.0-windows\SimpleCalculator.dll
+C:\Users\nick_\OneDrive\SimpleCalculator\bin\Debug\net6.0-windows\SimpleCalculator.pdb
+C:\Users\nick_\OneDrive\SimpleCalculator\obj\Debug\net6.0-windows\SimpleCalculator.csproj.AssemblyReference.cache
+C:\Users\nick_\OneDrive\SimpleCalculator\obj\Debug\net6.0-windows\SimpleCalculator.Form1.resources
+C:\Users\nick_\OneDrive\SimpleCalculator\obj\Debug\net6.0-windows\SimpleCalculator.csproj.GenerateResource.cache
+C:\Users\nick_\OneDrive\SimpleCalculator\obj\Debug\net6.0-windows\SimpleCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nick_\OneDrive\SimpleCalculator\obj\Debug\net6.0-windows\SimpleCalculator.AssemblyInfoInputs.cache
+C:\Users\nick_\OneDrive\SimpleCalculator\obj\Debug\net6.0-windows\SimpleCalculator.AssemblyInfo.cs
+C:\Users\nick_\OneDrive\SimpleCalculator\obj\Debug\net6.0-windows\SimpleCalculator.csproj.CoreCompileInputs.cache
+C:\Users\nick_\OneDrive\SimpleCalculator\obj\Debug\net6.0-windows\SimpleCalculator.dll
+C:\Users\nick_\OneDrive\SimpleCalculator\obj\Debug\net6.0-windows\refint\SimpleCalculator.dll
+C:\Users\nick_\OneDrive\SimpleCalculator\obj\Debug\net6.0-windows\SimpleCalculator.pdb
+C:\Users\nick_\OneDrive\SimpleCalculator\obj\Debug\net6.0-windows\SimpleCalculator.genruntimeconfig.cache
+C:\Users\nick_\OneDrive\SimpleCalculator\obj\Debug\net6.0-windows\ref\SimpleCalculator.dll
