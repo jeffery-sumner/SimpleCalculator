@@ -43,6 +43,8 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -100,6 +102,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Navy;
+            this.panel1.Controls.Add(this.button7);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -140,7 +143,7 @@
             this.button1.BackColor = System.Drawing.Color.Navy;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(33, 324);
+            this.button1.Location = new System.Drawing.Point(12, 324);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(60, 60);
             this.button1.TabIndex = 9;
@@ -153,7 +156,7 @@
             this.button2.BackColor = System.Drawing.Color.Navy;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(131, 324);
+            this.button2.Location = new System.Drawing.Point(99, 324);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(60, 60);
             this.button2.TabIndex = 10;
@@ -166,7 +169,7 @@
             this.button3.BackColor = System.Drawing.Color.Navy;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(233, 324);
+            this.button3.Location = new System.Drawing.Point(188, 324);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(60, 60);
             this.button3.TabIndex = 11;
@@ -179,7 +182,7 @@
             this.button4.BackColor = System.Drawing.Color.Navy;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(332, 324);
+            this.button4.Location = new System.Drawing.Point(278, 324);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(60, 60);
             this.button4.TabIndex = 12;
@@ -192,7 +195,7 @@
             this.button5.BackColor = System.Drawing.Color.Navy;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(433, 324);
+            this.button5.Location = new System.Drawing.Point(363, 324);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(60, 60);
             this.button5.TabIndex = 13;
@@ -208,12 +211,40 @@
             this.panel3.Size = new System.Drawing.Size(460, 200);
             this.panel3.TabIndex = 14;
             // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.Navy;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button6.ForeColor = System.Drawing.Color.White;
+            this.button6.Location = new System.Drawing.Point(448, 324);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(60, 60);
+            this.button6.TabIndex = 15;
+            this.button6.Text = "Clear";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button7.Font = new System.Drawing.Font("Rockwell Nova", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.button7.ForeColor = System.Drawing.Color.Navy;
+            this.button7.Location = new System.Drawing.Point(418, 22);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(90, 26);
+            this.button7.TabIndex = 16;
+            this.button7.Text = "Stay on top";
+            this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(520, 415);
+            this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -254,5 +285,7 @@
         private Button button4;
         private Button button5;
         private Panel panel3;
+        private Button button6;
+        private Button button7;
     }
 }

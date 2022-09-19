@@ -61,5 +61,18 @@ namespace SimpleCalculator
 
             textBox3.Text = percent.ToString();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+            textBox2.Clear();
+            textBox3.Clear();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            this.TopMost = true;
+            this.TopMost = false;
+        }
     }
 }
