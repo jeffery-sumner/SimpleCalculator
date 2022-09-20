@@ -15,3 +15,4 @@ C:\Users\nick_\OneDrive\SimpleCalculator\obj\Debug\net6.0-windows\refint\SimpleC
 C:\Users\nick_\OneDrive\SimpleCalculator\obj\Debug\net6.0-windows\SimpleCalculator.pdb
 C:\Users\nick_\OneDrive\SimpleCalculator\obj\Debug\net6.0-windows\SimpleCalculator.genruntimeconfig.cache
 C:\Users\nick_\OneDrive\SimpleCalculator\obj\Debug\net6.0-windows\ref\SimpleCalculator.dll
+C:\Users\nick_\OneDrive\SimpleCalculator\obj\Debug\net6.0-windows\SimpleCalculator.History.resources
