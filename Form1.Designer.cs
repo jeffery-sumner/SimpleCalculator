@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.labelOne = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -49,16 +49,16 @@
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label1
+            // labelOne
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Impact", 24F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.label1.Location = new System.Drawing.Point(152, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(240, 48);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Slide Rule 2.0";
+            this.labelOne.AutoSize = true;
+            this.labelOne.Font = new System.Drawing.Font("Impact", 24F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.labelOne.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.labelOne.Location = new System.Drawing.Point(152, 9);
+            this.labelOne.Name = "labelOne";
+            this.labelOne.Size = new System.Drawing.Size(240, 48);
+            this.labelOne.TabIndex = 0;
+            this.labelOne.Text = "Slide Rule 2.0";
             // 
             // label2
             // 
@@ -108,7 +108,7 @@
             this.panel1.BackColor = System.Drawing.Color.Navy;
             this.panel1.Controls.Add(this.button8);
             this.panel1.Controls.Add(this.button7);
-            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.labelOne);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -307,7 +307,7 @@
 
         #endregion
 
-        private Label label1;
+        private Label labelOne;
         private Label label2;
         private Label label3;
         private TextBox textBox2;
@@ -325,5 +325,6 @@
         private Button button8;
         public TextBox textBox1;
         public TextBox textBox3;
+        public EventHandler textBox3_TextChanged;
     }
 }

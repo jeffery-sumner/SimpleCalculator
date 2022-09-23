@@ -1,3 +1,4 @@
+using System.Reflection.Emit;
 using System.Reflection.Metadata.Ecma335;
 using System.Windows.Forms;
 
@@ -18,9 +19,9 @@ namespace SimpleCalculator
         public decimal Txt1 { get; set; }
         public decimal Txt2 { get; set; }
         public string Txt3 { get; set; }
-        [MaybeNull]
 
         //Calculator history method
+        [MaybeNull]
         public decimal CalculationHistory(decimal txt1, decimal txt2, string op, decimal v)
         {
             Txt1 = txt1;
@@ -100,8 +101,7 @@ namespace SimpleCalculator
         //Stay on top button
         private void button7_Click(object sender, EventArgs e)
         {
-            this.TopMost = true;
-            this.TopMost = false;
+            TopMost = true;
         }
 
         //Event handler for the History Form
@@ -114,7 +114,7 @@ namespace SimpleCalculator
         private void button8_Click(object sender, EventArgs e)
         {
             var History = new History();
-            History.Show(); History.Close();
+            History.Show();
         }
 
     }
